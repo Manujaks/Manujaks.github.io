@@ -21,7 +21,26 @@ javascript:(function() {
 				"Click frenzy",
 				"Cursed finger",
 				"Cookie storm",
-				"Dragonflight"
+				"Dragonflight",
+				
+				"High-five", 
+				"Congregation",
+				"Luxuriant harvest",
+				"Ore vein",
+				"Oiled-up",
+				"Juicy profits",
+				"Fervent adoration",
+				"Manabloom",
+				"Delicious lifeforms",
+				"Breakthrough",
+				"Righteous cataclysm",
+				"Golden ages",
+				"Extra cycles",
+				"Solar flare",
+				"Winning streak",
+				"Macrocosm",
+				"Refactoring",
+				"Cosmic nursery"
 			]
 			this.hadBuffs = false;
 			this.hadCookieStorm = false;
@@ -158,7 +177,29 @@ javascript:(function() {
 				}
 				Game.shimmers.forEach((shimmer) => shimmer.pop())
 			}
-			if (Game.hasBuff('Click frenzy') || Game.hasBuff('Dragonflight') || Game.hasBuff('Elder frenzy') || Game.hasBuff('Cursed finger')) {
+			if (Game.hasBuff('Click frenzy') || 
+			Game.hasBuff('Dragonflight') || 
+			Game.hasBuff('Elder frenzy') || 
+			Game.hasBuff('Cursed finger') || 
+			
+			Game.hasBuff('High-five') || 
+			Game.hasBuff('Congregation') || 
+			Game.hasBuff('Luxuriant harvest') || 
+			Game.hasBuff('Ore vein') || 
+			Game.hasBuff('Oiled-up') || 
+			Game.hasBuff('Juicy profits') || 
+			Game.hasBuff('Fervent adoration') || 
+			Game.hasBuff('Manabloom') || 
+			Game.hasBuff('Delicious lifeforms') || 
+			Game.hasBuff('Breakthrough') || 
+			Game.hasBuff('Righteous cataclysm') || 
+			Game.hasBuff('Golden ages') || 
+			Game.hasBuff('Extra cycles') || 
+			Game.hasBuff('Solar flare') || 
+			Game.hasBuff('Winning streak') || 
+			Game.hasBuff('Macrocosm') || 
+			Game.hasBuff('Refactoring') || 
+			Game.hasBuff('Cosmic nursery')) {
 				Game.ClickCookie();
 			}
 			
