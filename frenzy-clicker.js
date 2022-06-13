@@ -40,7 +40,8 @@ javascript:(function() {
 				"Winning streak",
 				"Macrocosm",
 				"Refactoring",
-				"Cosmic nursery"
+				"Cosmic nursery",
+				"Brainstorm"
 			]
 			this.hadBuffs = false;
 			this.hadCookieStorm = false;
@@ -199,7 +200,8 @@ javascript:(function() {
 			Game.hasBuff('Winning streak') || 
 			Game.hasBuff('Macrocosm') || 
 			Game.hasBuff('Refactoring') || 
-			Game.hasBuff('Cosmic nursery')) {
+			Game.hasBuff('Cosmic nursery') || 
+			Game.hasBuff('Brainstorm')) {
 				Game.ClickCookie();
 			}
 			
