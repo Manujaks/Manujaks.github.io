@@ -41,7 +41,8 @@ javascript:(function() {
 				"Macrocosm",
 				"Refactoring",
 				"Cosmic nursery",
-				"Brainstorm"
+				"Brainstorm",
+				"Deduplication"
 			]
 			this.hadBuffs = false;
 			this.hadCookieStorm = false;
@@ -201,7 +202,8 @@ javascript:(function() {
 			Game.hasBuff('Macrocosm') || 
 			Game.hasBuff('Refactoring') || 
 			Game.hasBuff('Cosmic nursery') || 
-			Game.hasBuff('Brainstorm')) {
+			Game.hasBuff('Brainstorm')) || 
+			Game.hasBuff('Deduplication')) {
 				Game.ClickCookie();
 			}
 			
