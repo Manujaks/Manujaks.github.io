@@ -202,7 +202,7 @@ javascript:(function() {
 			Game.hasBuff('Macrocosm') || 
 			Game.hasBuff('Refactoring') || 
 			Game.hasBuff('Cosmic nursery') || 
-			Game.hasBuff('Brainstorm')) || 
+			Game.hasBuff('Brainstorm') || 
 			Game.hasBuff('Deduplication')) {
 				Game.ClickCookie();
 			}
