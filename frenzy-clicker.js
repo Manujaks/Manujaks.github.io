@@ -179,6 +179,12 @@ javascript:(function() {
 				}
 				Game.shimmers.forEach((shimmer) => shimmer.pop())
 			}
+			
+			Game.shimmers.forEach((shimmer) => {
+				console.log("I was here")
+				if (shimmer.type=="reindeer") {shimmer.pop()}
+			})
+			
 			if (Game.hasBuff('Click frenzy') || 
 			Game.hasBuff('Dragonflight') || 
 			Game.hasBuff('Elder frenzy') || 
